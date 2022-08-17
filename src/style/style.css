@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.board {
+  max-width: 1038px;
+  padding-top: 75px;
+  margin: 0 auto;
+}
