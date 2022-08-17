@@ -10,3 +10,34 @@
   padding-top: 75px;
   margin: 0 auto;
 }
+
+.title {
+  position: relative;
+  margin-bottom: 72px;
+}
+
+.title-image {
+  display: block; /* width, height, margin을 지정하기 위해서(inline은 안되니까) */
+  height: 64px;
+  width: 270px;
+  padding: 0 40px;
+  margin: 0 auto; /* 이미지 중앙 정렬 */
+  background-color: #fff;
+}
+
+.title-text {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -2px;
+  width: 100%;
+  height: 4px;
+  background-color: #f2994a;
+  z-index: -1;
+  /* 텍스트를 숨기기 위한 설정 */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
